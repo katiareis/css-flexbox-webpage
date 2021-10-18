@@ -1,0 +1,61 @@
+/*Reset styles*/
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #222222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Superinfo */
+
+.superinfo-bg {
+  background: #122ab2;
+  color: white;
+}
+
+.superinfo {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex; /* Ativa o flexbox no container */
+  justify-content: space-between; /* Justifica os itens com espaçamento entre eles */
+  flex-wrap: wrap; /* Responsivo - Quebra os itens para a próxima linha */
+}
+
+.superinfo p,
+.superinfo a {
+  margin: 0 10px 10px 10px;
+}
+.superinfo a {
+  color: white;
+}
+
+/* Header */ /* */
+
+/* Navigation */
