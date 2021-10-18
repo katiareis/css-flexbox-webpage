@@ -99,3 +99,49 @@ img {
 .menu-nav a:hover {
   color: #122ab2;
 }
+
+/* Introdução  */
+
+.introducao {
+  font-size: 3em; /* 48px divido pela font base do browser 16px = 3em */
+  line-height: 1em;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+}
+
+/* */
+
+/* Sobre */
+
+.sobre {
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px; /* Define flex-grow: 2;  flex-shrink: 1, flex-basis: 300px */
+  margin: 0 10px;
+}
+
+.sobre-info h1 {
+  font-size: 3em; /* 48px divido pela font base do browser 16px = 3em */
+  margin-bottom: 0.5em;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 160px; /* Define flex-grow: 1;  flex-shrink: 1, flex-basis: 160px */
+  margin: 0 10px;
+}
