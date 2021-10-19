@@ -1,6 +1,7 @@
-# blog-page
-A simple webpage.
-Learning about CSS Flexbox - Origamid Course
+#A simple webpage applying CSS Flexbox only.
+https://katiareis.github.io/css-flexbox-webpage/
+
+#Learning about CSS Flexbox - Origamid Course
 
 
 About this course completion project:
