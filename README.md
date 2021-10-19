@@ -1,4 +1,5 @@
 # blog-page
+A simple webpage.
 Learning about CSS Flexbox - Origamid Course
 
 
